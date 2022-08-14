@@ -27,16 +27,35 @@ print(q[rn+2:l])
 n = q.find(', ',start = q[n], end= ', ')
 
 
-TEMP = str()
-FilmList = list()
+# TEMP = str()
+# FilmList = list()
 
-for i in q:
-    if i != ', ':
-        TEMP += i
-    else:
-        FilmList.append(TEPM)
-        TEMP = str()
-    print(FilmList)
+# for i in q:
+#     if i != ',':
+#         TEMP += i
+#         print(TEMP)
+#     elif i == ',':
+#         FilmList.append(TEMP)
+#         TEMP = str()
+#         print(TEMP)
+#     else:
+#         FilmList.append(TEMP)
+#     print(FilmList)
+# stroka = str()
+# listnew = []
+# for i in q:
+#     if i == ",":
+#         listnew.append(stroka.strip())
+#         stroka = str()
+#     else:
+#         stroka += i
+# if stroka:
+#     listnew.append(stroka.strip())
+#
+# print(listnew)
+#
+# print(listnew[1])
+# print(listnew[-2])
 
 
 
@@ -44,4 +63,3 @@ for i in q:
 
 
 
-print(n)
