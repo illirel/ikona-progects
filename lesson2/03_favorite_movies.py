@@ -16,15 +16,16 @@ my_favorite_movies = 'Терминатор, Пятый элемент, Ават�
 
 # TODO здесь ваш код
 q = my_favorite_movies
-l = len(q)
-n = q.find(', ')
-print(q[0:(n)])
+# l = len(q)
+# n = q.find(', ')
+# print(q[0:(n)])
+#
+# rn = q.rfind(', ')
+# print(q[rn+2:l])
+#
+#
+# n = q.find(', ',start = q[n], end= ', ')
 
-rn = q.rfind(', ')
-print(q[rn+2:l])
-
-
-n = q.find(', ',start = q[n], end= ', ')
 
 
 # TEMP = str()
@@ -56,6 +57,60 @@ n = q.find(', ',start = q[n], end= ', ')
 #
 # print(listnew[1])
 # print(listnew[-2])
+
+
+
+
+stroka = str()
+list = []
+for i in q:
+    if i ==",":
+        list.append(stroka.strip())
+        stroka = str()
+    else:
+        stroka += i
+if stroka:
+    list.append(stroka.strip())
+    print(list[-1])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
