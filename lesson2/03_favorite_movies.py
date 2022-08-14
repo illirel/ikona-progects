@@ -16,9 +16,14 @@ my_favorite_movies = 'Терминатор, Пятый элемент, Ават�
 
 # TODO здесь ваш код
 q = my_favorite_movies
-
+l = len(q)
 n = q.find(', ')
 print(q[0:(n)])
+
+n = q.rfind(', ')
+print(q[n+2:l])
+
+
 
 
 
