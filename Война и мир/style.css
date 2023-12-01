@@ -14,7 +14,7 @@ body {
 /* Заголовки всех уровней */
 h1, h2, h3, h4 {
   font-weight: normal;
-  text-align: right;
+  text-align: center;
   color: #646464;
 }
 
