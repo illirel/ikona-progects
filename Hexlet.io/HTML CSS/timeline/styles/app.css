@@ -1,0 +1,23 @@
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+  
+    color: #fff;
+    font: 18px/1.5 sans-serif;
+  
+    background-color: #212529;
+  }
+  
+  h2,
+  p {
+    margin: 0;
+  }
+  
+  /* BEGIN (write your solution here) */
+  
+  
+  /* END */
+  
