@@ -17,7 +17,33 @@ body {
   }
   
   /* BEGIN (write your solution here) */
-  
+  .timeline{
+    padding: 30px 0 30px 50px;
+    border-left: 2px solid #fff;
+    height:100%;
+    margin: 0;
+    position: relative;
+  }
+  .timeline-item::before{
+    
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #80fcff;
+    border-radius: 50%; 
+    position: absolute;
+    left: -11px;
+    
+
+  }
+  .timeline-item {
+    margin-bottom: 100px;
+    list-style-type: none;
+  }
+  .timeline-item:last-child{
+    margin-bottom: 0;
+  }
+
   
   /* END */
-  
