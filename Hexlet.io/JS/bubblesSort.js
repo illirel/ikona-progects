@@ -2,7 +2,7 @@ const bubbleSort = arr => {
 	let stepsCount = arr.length - 1;
 
 	let swapped;
-	677;
+
 	do {
 		swapped = false;
 		for (let i = 0; i < stepsCount; i += 1) {
