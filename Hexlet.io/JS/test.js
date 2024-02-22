@@ -1,5 +1,1 @@
-console.log();
-
-ыавваыва;
-ываыа;
-sss;
+console.log(3);
