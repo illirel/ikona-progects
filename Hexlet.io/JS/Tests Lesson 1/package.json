@@ -1,3 +1,9 @@
 {
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-modules --no-warnings index.test.js"
+  },
+  "dependencies": {
+    "assert": "^2.1.0"
+  }
 }
